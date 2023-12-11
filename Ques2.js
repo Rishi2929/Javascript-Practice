@@ -1,12 +1,14 @@
-//Question 2 : Check whether it is array or not
+//Question 2 : Check whether object is array or not
 
 function checkArray(elem) {
-    console.log(Array.isArray(elem))
+    return Array.isArray(elem)
 }
 
-checkArray([]);
-checkArray({});
-checkArray(null);
-checkArray();
+console.log(checkArray([]))
+console.log(checkArray({}))
+console.log(checkArray(null))
+console.log(checkArray())
+
+
 
 
