@@ -4,7 +4,7 @@ function StringPalChecker(str) {
     const processedStr = str.replace(/\s/g, '').toLowerCase();
     console.log(processedStr)
 
-    const reversedStr = processedStr.split("").reverse().join("");
+    const reversedStr = processedStr.split("").reverse().join("")
     console.log(reversedStr)
 
     if (reversedStr === processedStr) {
