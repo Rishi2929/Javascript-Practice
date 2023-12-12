@@ -6,9 +6,9 @@ function Reverse(num) {
 }
 
 function ReversewithLoop(num) {
-    var rev = 0
+    let rev = 0
     while (num > 0) {
-        var rem = num % 10;
+        let rem = num % 10;
         rev = rev * 10 + rem;
         num = Math.floor(num / 10)
     }

@@ -1,5 +1,6 @@
 //Return the String in alphabetical order
-function alphabetical(str) {
-    return str.split("").sort().join("")
+const alphabetical = (str) => {
+    return str.toLowerCase().split("").sort().join(" ")
 }
-console.log(alphabetical("rishi"))
+
+console.log(alphabetical("Rishi"))

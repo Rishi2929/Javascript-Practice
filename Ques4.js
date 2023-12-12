@@ -1,5 +1,5 @@
 //Check whether the number is an integer
-var a = 12.0;
+let a = 12.0;
 
 // if (a % 1 == 0) {
 //     console.log("Integer")
