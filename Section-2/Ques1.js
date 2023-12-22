@@ -1,3 +1,5 @@
+//Make an array of objects representing the items , filter the items based on a specific condition
+//and transform the filtered data into a new format
 const ArrOfObj = [
     {
         name: "Rishi",
@@ -22,5 +24,5 @@ const ArrOfObj = [
 
 ]
 let FilteredData = ArrOfObj.filter(ArrOfObj => ArrOfObj.Age >= "18")
-let result = FilteredData.map((item) => item.name)
+let result = FilteredData.map((item) => ({ name: item.name, gender: item.gender }))
 console.log(result)
